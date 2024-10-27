@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meeting Notes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Meeting Notes</h1>
+        <form id="noteForm">
+            <textarea id="noteInput" rows="4" placeholder="Type your note here..." required></textarea>
+            <button type="submit" id="addNoteBtn">Add Note</button> <!-- Updated ID for button -->
+        </form>        
+        <h2>Your Notes</h2>
+        <ul id="notesList"></ul>
+        <button id="downloadBtn">Download Notes</button>
+        <button id="clearHistoryBtn">Clear History</button> <!-- New Button -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light background color */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px; /* Decreased max width */
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker color for header */
+}
+
+h2 {
+    text-align: center;
+    color: #555; /* Slightly lighter color for subheader */
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Increased font size */
+    resize: none; /* Disable resizing */
+}
+
+button {
+    width: 100%; /* Full width for all buttons */
+    padding: 10px;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    margin: 5px 0; /* Margin between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+li {
+    background: #e9ecef; /* Light gray background for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+li:hover {
+    background: #d3d3d3; /* Slightly darker gray on hover */
+}
+
+li button {
+    background: #dc3545; /* Red color for delete button */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c82333; /* Darker red on hover */
+}
+
+#downloadBtn, #clearHistoryBtn {
+    background-color: #28a745; /* Green for download and clear history buttons */
+}
+
+#downloadBtn:hover, #clearHistoryBtn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
